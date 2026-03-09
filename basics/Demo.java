@@ -12,26 +12,33 @@ public class Demo {
 		
 		int count = 0;
 		
-		boolean isPrime = true;
+//		boolean isPrime = true;
 		
 		for(int i=1 ; i<=n ; i++) {
 			
 			if( n % i == 0 ) {
 				count++;
-				isPrime = false;
+//				isPrime = false;
 //				break;
 				System.out.print(i+" ");
 			}
 			
 		}
 		
-		if( isPrime ) {
-			System.out.print("\nIts a prime number");
-		}else {
-			System.out.print("\nNot a prime number");
-		}
+//		if( isPrime ) {
+//			System.out.print("\nIts a prime number");
+//		}else {
+//			System.out.print("\nNot a prime number");
+//		}
 		
-		System.out.println("\ntotal factors : "+count);
+		System.out.print("\ntotal factors : "+count);
+		
+		if(count == 2) {
+            System.out.print("\nIts a prime number");
+        } else {
+            System.out.print("\nNot a prime number");
+        }
+		
 		
 		
 	}
