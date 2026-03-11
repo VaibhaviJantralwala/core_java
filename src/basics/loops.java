@@ -2,7 +2,7 @@ package basics;
 
 import java.util.Scanner;
 
-public class loopingJava {
+public class loops {
 
 	public static void main(String args[]) {
 		
