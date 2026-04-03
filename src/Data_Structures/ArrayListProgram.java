@@ -12,7 +12,7 @@ public class ArrayListProgram {
 			List<Integer> arrayList = new ArrayList<Integer>();
 			
 //			ArrayList<Integer> al = new ArrayList<Integer>();
-			
+	
 			List<Integer> al = Arrays.asList(1,2,3,4,5);
 			
 			arrayList.add(12);
