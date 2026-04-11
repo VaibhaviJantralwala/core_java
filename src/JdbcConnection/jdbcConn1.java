@@ -15,7 +15,7 @@ public class jdbcConn1 {
 			
 			con = DriverManager.getConnection("jdbc:mysql://localhost:3307/vaibhavi","root","");
 			
-			System.out.println("Connection set up done . "+con);
+			//System.out.println("Connection set up done . "+con);
 			
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
